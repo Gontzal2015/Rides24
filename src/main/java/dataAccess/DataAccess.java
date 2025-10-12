@@ -26,6 +26,7 @@ import exceptions.RideMustBeLaterThanTodayException;
  * It implements the data access to the objectDb database
  */
 public class DataAccess {
+	private static final String bookFreeze = "BookFreeze";
 	private EntityManager db;
 	private EntityManagerFactory emf;
 
@@ -143,11 +144,11 @@ public class DataAccess {
 			db.persist(book4);
 			db.persist(book5);
 
-			Movement m1 = new Movement(traveler1, "BookFreeze", 20);
-			Movement m2 = new Movement(traveler1, "BookFreeze", 40);
-			Movement m3 = new Movement(traveler1, "BookFreeze", 5);
-			Movement m4 = new Movement(traveler2, "BookFreeze", 4);
-			Movement m5 = new Movement(traveler1, "BookFreeze", 3);
+			Movement m1 = new Movement(traveler1, bookFreeze, 20);
+			Movement m2 = new Movement(traveler1, bookFreeze, 40);
+			Movement m3 = new Movement(traveler1, bookFreeze, 5);
+			Movement m4 = new Movement(traveler2, bookFreeze, 4);
+			Movement m5 = new Movement(traveler1, bookFreeze, 3);
 			Movement m6 = new Movement(driver1, "Deposit", 15);
 			Movement m7 = new Movement(traveler1, "Deposit", 168);
 			
@@ -239,23 +240,9 @@ public class DataAccess {
 				">> DataAccess: createRide=> from= " + from + " to= " + to + " driver=" + driverName + " date " + date);
 		if (driverName==null) return null;
 		try {
-			if (new Date().compareTo(date) > 0) {
-				System.out.println("ppppp");
-				throw new RideMustBeLaterThanTodayException(
-						ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.ErrorRideMustBeLaterThanToday"));
-			}
+			validateDate(date);
 
-			db.getTransaction().begin();
-			Driver driver = db.find(Driver.class, driverName);
-			if (driver.doesRideExists(from, to, date)) {
-				db.getTransaction().commit();
-				throw new RideAlreadyExistException(
-						ResourceBundle.getBundle("Etiquetas").getString("DataAccess.RideAlreadyExist"));
-			}
-			Ride ride = driver.addRide(from, to, date, nPlaces, price);
-			// next instruction can be obviated
-			db.persist(driver);
-			db.getTransaction().commit();
+			Ride ride = createRideTransaction(from, to, date, nPlaces, price, driverName);
 
 			return ride;
 		} catch (NullPointerException e) {
@@ -264,6 +251,31 @@ public class DataAccess {
 		}
 		
 
+	}
+	private Ride createRideTransaction(String from, String to, Date date, int nPlaces, float price, String driverName)
+			throws RideAlreadyExistException {
+		db.getTransaction().begin();
+		Driver driver = db.find(Driver.class, driverName);
+		checkRideExists(from, to, date, driver);
+		Ride ride = driver.addRide(from, to, date, nPlaces, price);
+		// next instruction can be obviated
+		db.persist(driver);
+		db.getTransaction().commit();
+		return ride;
+	}
+	private void checkRideExists(String from, String to, Date date, Driver driver) throws RideAlreadyExistException {
+		if (driver.doesRideExists(from, to, date)) {
+			db.getTransaction().commit();
+			throw new RideAlreadyExistException(
+					ResourceBundle.getBundle("Etiquetas").getString("DataAccess.RideAlreadyExist"));
+		}
+	}
+	private void validateDate(Date date) throws RideMustBeLaterThanTodayException {
+		if (new Date().compareTo(date) > 0) {
+			System.out.println("ppppp");
+			throw new RideMustBeLaterThanTodayException(
+					ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.ErrorRideMustBeLaterThanToday"));
+		}
 	}
 
 	/**
@@ -549,18 +561,15 @@ public class DataAccess {
 	public boolean bookRide(String username, Ride ride, int seats, double desk) {
 		try {
 			db.getTransaction().begin();
+			boolean valido = true;
 			Traveler traveler = getTraveler(username);
-			if (traveler == null) {
-				return false;
-			}
-			if (ride.getnPlaces() < seats) {
-				return false;
-			}
+			valido = travelerAndSeatsValid(ride, seats, valido, traveler);
 			double ridePriceDesk = (ride.getPrice() - desk) * seats;
 			double availableBalance = traveler.getMoney();
 			if (availableBalance < ridePriceDesk) {
-				return false;
+				valido = false;
 			}
+			if(!valido) return false;
 			Booking booking = new Booking(ride, traveler, seats);
 			booking.setTraveler(traveler);
 			booking.setDeskontua(desk);
@@ -578,6 +587,15 @@ public class DataAccess {
 			db.getTransaction().rollback();
 			return false;
 		}
+	}
+	private boolean travelerAndSeatsValid(Ride ride, int seats, boolean valido, Traveler traveler) {
+		if (traveler == null) {
+			valido = false;
+		}
+		if (ride.getnPlaces() < seats) {
+			valido = false;
+		}
+		return valido;
 	}
 
 	public List<Movement> getAllMovements(User user) {
@@ -758,13 +776,11 @@ public class DataAccess {
 		return era;
 	}
 
-	public boolean erreklamazioaBidali(String nor, String nori, Date gaur, Booking booking, String textua,
-			boolean aurk) {
+	public boolean erreklamazioaBidali(Complaint reclamacion) {
 		try {
 			db.getTransaction().begin();
 
-			Complaint erreklamazioa = new Complaint(nor, nori, gaur, booking, textua, aurk);
-			db.persist(erreklamazioa);
+			db.persist(reclamacion);
 			db.getTransaction().commit();
 			return true;
 		} catch (Exception e) {
