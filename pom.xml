@@ -31,7 +31,7 @@
     <sonar.organization>20mizuki04</sonar.organization> 
 	<sonar.host.url>https://sonarcloud.io</sonar.host.url> 
 	<sonar.projectKey>proyrides</sonar.projectKey> 
-	<sonar.login>0893ace446cae0da25183e4a9fc9f0b18362e16e</sonar.login> 
+	<sonar.login>af93ef7dfa6844cd949d1f8fc1e20d3e6d3408aa</sonar.login> 
 </properties>
 
 <!-- https://mvnrepository.com/artifact/junit/junit -->
