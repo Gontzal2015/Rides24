@@ -8,7 +8,7 @@ import domain.Ride;
 
 public class TestBusinessLogic {
 	TestDataAccess dbManagerTest;
- 	//c
+ 	
     
 	   public TestBusinessLogic()  {
 			
