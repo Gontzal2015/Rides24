@@ -1,0 +1,53 @@
+
+%dataAccess.DataAccess#deleteAlert(I)ZZ
+NC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/dataAccess/DataAccess.javaâ â("11*%
+5
+ô
+ ô("
+
+ô ô(
+""*÷
+10
+í í(+f
+d
+
+í í(+
+travelerdomain.Traveler"__id*3
+
+__unknown_file (
+
+%0domain.Traveler÷”
+
+ì ì(
+
+%1void",domain.Traveler#removeAlert(Ldomain/Alert;)V*9
+
+__unknown_file (
+
+travelerdomain.Traveler*3
+
+__unknown_file (
+
+alertdomain.Alert2removeAlert(Ldomain/Alert;)*
+5*Å
+11
+ê ê()O
+M
+
+ê ê()
+alertdomain.Alert"__id*"
+
+__unknown_file (
+""óî
+
+í í(*
+%0domain.Traveler"+domain.Alert#getTraveler()Ldomain/Traveler;*3
+
+__unknown_file (
+
+alertdomain.Alert2getTraveler()*
+10: 
+
+__unknown_file (
+""B
+dataAccess.DataAccessHX

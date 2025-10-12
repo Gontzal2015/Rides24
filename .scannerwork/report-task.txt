@@ -1,0 +1,7 @@
+organization=20mizuki04
+projectKey=proyrides
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.68351
+dashboardUrl=https://sonarcloud.io/dashboard?id=proyrides
+ceTaskId=AZnEQRtznE0wt2b1ToO9
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZnEQRtznE0wt2b1ToO9

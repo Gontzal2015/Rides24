@@ -1,0 +1,184 @@
+
+"gui.RegisterGUI#%field_initializer
+__unknown_file ("1*¬$
+1 (çä
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java' (1
+%0javax.swing.JTextField"javax.swing.JTextField´
+®
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java# (3
+%1" javax.swing.JTextField#<init>()V**
+ (
+
+%0javax.swing.JTextField´
+®
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java (4 
+gui.RegisterGUI"
+	fieldUser"__id**
+ (
+
+%0javax.swing.JTextFieldïí
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java+ (9 
+%2javax.swing.JPasswordField"javax.swing.JPasswordField≥
+∞
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java' (;
+%3"$javax.swing.JPasswordField#<init>()V*.
+ ("
+ 
+%2javax.swing.JPasswordFieldØ
+¨
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java (< 
+gui.RegisterGUI"
+	fieldPass"__id*.
+ ("
+ 
+%2javax.swing.JPasswordFieldãà
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java1 (B
+%4javax.swing.JComboBox"javax.swing.JComboBox©
+¶
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java- (D
+%5"javax.swing.JComboBox#<init>()V*)
+ (
+
+%4javax.swing.JComboBox≠
+™
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java (E#
+gui.RegisterGUI"
+comboBoxType"__id*)
+ (
+
+%4javax.swing.JComboBoxÖÇ
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java% (+
+%6javax.swing.JLabel"javax.swing.JLabel£
+†
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java! (-
+%7"javax.swing.JLabel#<init>()V*&
+ (
+
+%6javax.swing.JLabel©
+¶
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java (."
+gui.RegisterGUI"
+jLabelError"__id*&
+ (
+
+%6javax.swing.JLabelÖÇ
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java$ (*
+%8javax.swing.JLabel"javax.swing.JLabel…
+∆
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java  (p
+%9".javax.swing.JLabel#<init>(Ljava/lang/String;)V*&
+ (
+
+%8javax.swing.JLabel*
+ (
+""®
+•
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java (q!
+gui.RegisterGUI"
+
+jLabelUser"__id*&
+ (
+
+%8javax.swing.JLabelÜÉ
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java$ (*
+%10javax.swing.JLabel"javax.swing.JLabelÀ
+»
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java  (l
+%11".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
+ (
+
+%10javax.swing.JLabel*
+ (
+""©
+¶
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java (m!
+gui.RegisterGUI"
+
+jLabelPass"__id*'
+ (
+
+%10javax.swing.JLabelÜÉ
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java$ (*
+%12javax.swing.JLabel"javax.swing.JLabelÀ
+»
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java  (l
+%13".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
+ (
+
+%12javax.swing.JLabel*
+ (
+""©
+¶
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java (m!
+gui.RegisterGUI"
+
+jLabelType"__id*'
+ (
+
+%12javax.swing.JLabelàÖ
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java' (.
+%14javax.swing.JButton"javax.swing.JButtonÕ
+ 
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java# (h
+%15"/javax.swing.JButton#<init>(Ljava/lang/String;)V*(
+ (
+
+%14javax.swing.JButton*
+ (
+""¨
+©
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java (i#
+gui.RegisterGUI"
+jButtonClose"__id*(
+ (
+
+%14javax.swing.JButtonàÖ
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java* (1
+%16javax.swing.JButton"javax.swing.JButtonÕ
+ 
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java& (z
+%17"/javax.swing.JButton#<init>(Ljava/lang/String;)V*(
+ (
+
+%16javax.swing.JButton*
+ (
+""Ø
+¨
+R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java ({&
+gui.RegisterGUI"
+jButtonRegister"__id*(
+ (
+
+%16javax.swing.JButton"g
+P
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/RegisterGUI.java
+ k(
+implicit returnB
+gui.RegisterGUI

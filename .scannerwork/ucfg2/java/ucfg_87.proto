@@ -1,0 +1,15 @@
+
++domain.Traveler#getAlerts()Ljava/util/List;R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/domain/Traveler.java* *("1*˜
+1+	 +(e
+c
++	 +(
+%0java.util.List"__id*;
+
+__unknown_file (*
+domain.Traveler"
+alerts""
++ +(
+
+%0java.util.ListB
+domain.TravelerH

@@ -1,0 +1,24 @@
+
+MdataAccess.DataAccess#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;Z
+NC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/dataAccess/DataAccess.java£ £('"7*9
+5
+®
+ ®("(
+
+® ®(
+
+alertsjava.util.List*h
+7
+ª ª(.R
+P
+
+ª ª(.
+alertsjava.util.List"__id*"
+
+__unknown_file (
+""*
+5:*
+
+£( £(7
+usernamejava.lang.StringB
+dataAccess.DataAccessH

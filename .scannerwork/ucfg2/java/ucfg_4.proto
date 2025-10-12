@@ -1,0 +1,20 @@
+
+JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;Z
+NC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/dataAccess/DataAccess.javaÕ Õ(%"1*
+1
+Ö Ö(Z
+X
+
+Ù Ù(6 
+arrivingCitiesjava.util.List"__id*"
+
+__unknown_file (
+"""0
+
+Ú Ú("
+ 
+arrivingCitiesjava.util.List:&
+
+Õ& Õ(1
+fromjava.lang.StringB
+dataAccess.DataAccessH

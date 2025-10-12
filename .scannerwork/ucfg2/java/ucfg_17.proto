@@ -1,0 +1,132 @@
+
+HdataAccess.DataAccess#addTraveler(Ljava/lang/String;Ljava/lang/String;)ZZ
+NC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/dataAccess/DataAccess.javaÔ Ô("14*…
+13
+Ø Ø(/h
+f
+
+Ø Ø(/
+existingDriverdomain.Driver"__id*1
+
+__unknown_file (
+
+%0domain.Driver‚ÿ
+
+Ù Ù(4
+%1domain.Traveler"FdataAccess.DataAccess#getTraveler(Ljava/lang/String;)Ldomain/Traveler;*5
+
+__unknown_file (
+dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String2getTraveler(Ljava/lang/String;)*
+12*“
+14
+Ø Ø($ú÷
+
+Ø Ø(.
+%0domain.Driver"BdataAccess.DataAccess#getDriver(Ljava/lang/String;)Ldomain/Driver;*5
+
+__unknown_file (
+dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String2getDriver(Ljava/lang/String;)*
+13*%
+5
+á
+ á("
+
+á á(
+""*|
+8
+Ş Ş(8f
+d
+
+Ş Ş(8
+travelerdomain.Traveler"__id*3
+
+__unknown_file (
+
+%4domain.Traveler*
+5*Ğ
+9
+Ş$ Ş(,64
+
+Ş Ş(#
+%4domain.Traveler"domain.Traveler
+ş
+
+Ş Ş(7
+%5"=domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V*3
+
+__unknown_file (
+
+%4domain.Traveler*:
+
+__unknown_file (
+
+usernamejava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String*
+8*&
+10
+Û Û("
+
+Û Û(
+""*¦
+11
+Ú! Ú(1Š
+‡
+
+Ú! Ú(9
+%3boolean"	__compare*
+
+Ú2 Ú(4
+!=*3
+
+Ú! Ú(1%
+#
+existingTravelerdomain.Traveler*
+
+Ú5 Ú(9
+""*
+9
+10*“
+12
+Ù Ù(5n
+l
+
+Ù Ù(5#
+existingTravelerdomain.Traveler"__id*3
+
+__unknown_file (
+
+%1domain.Traveler†
+ƒ
+
+Ú Ú(
+%2boolean"	__compare*
+
+Ú Ú(
+!=*/
+
+Ú Ú(!
+
+existingDriverdomain.Driver*
+
+Ú Ú(
+""*
+10
+11:*
+
+Ô Ô(,
+usernamejava.lang.String:*
+
+Ô- Ô(<
+passwordjava.lang.StringB
+dataAccess.DataAccessHX

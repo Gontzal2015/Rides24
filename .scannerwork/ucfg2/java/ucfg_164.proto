@@ -1,0 +1,126 @@
+
+gui.LoginGUI#%field_initializer
+__unknown_file ("1*°
+1 (äá
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java# (-
+%0javax.swing.JTextField"javax.swing.JTextField®
+•
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java (/
+%1" javax.swing.JTextField#<init>()V**
+ (
+
+%0javax.swing.JTextField§
+°
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java (0
+gui.LoginGUI"
+
+fieldLog"__id**
+ (
+
+%0javax.swing.JTextFieldíè
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java( (6 
+%2javax.swing.JPasswordField"javax.swing.JPasswordField∞
+≠
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java$ (8
+%3"$javax.swing.JPasswordField#<init>()V*.
+ ("
+ 
+%2javax.swing.JPasswordField©
+¶
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java (9
+gui.LoginGUI"
+	fieldPass"__id*.
+ ("
+ 
+%2javax.swing.JPasswordFieldÅ
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java  (&
+%4javax.swing.JLabel"javax.swing.JLabel∆
+√
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java (l
+%5".javax.swing.JLabel#<init>(Ljava/lang/String;)V*&
+ (
+
+%4javax.swing.JLabel*
+ (
+""°
+û
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java (m
+gui.LoginGUI"
+	jLabelLog"__id*&
+ (
+
+%4javax.swing.JLabelÅ
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java! ('
+%6javax.swing.JLabel"javax.swing.JLabel∆
+√
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java (i
+%7".javax.swing.JLabel#<init>(Ljava/lang/String;)V*&
+ (
+
+%6javax.swing.JLabel*
+ (
+""¢
+ü
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java (j
+gui.LoginGUI"
+
+jLabelPass"__id*&
+ (
+
+%6javax.swing.JLabelÑÅ
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java$ (+
+%8javax.swing.JButton"javax.swing.JButton»
+≈
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java  (e
+%9"/javax.swing.JButton#<init>(Ljava/lang/String;)V*'
+ (
+
+%8javax.swing.JButton*
+ (
+""•
+¢
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java (f 
+gui.LoginGUI"
+jButtonClose"__id*'
+ (
+
+%8javax.swing.JButtonÖÇ
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java$ (+
+%10javax.swing.JButton"javax.swing.JButton 
+«
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java  (n
+%11"/javax.swing.JButton#<init>(Ljava/lang/String;)V*(
+ (
+
+%10javax.swing.JButton*
+ (
+""¶
+£
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java (o 
+gui.LoginGUI"
+jButtonLogIn"__id*(
+ (
+
+%10javax.swing.JButton"d
+M
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/LoginGUI.java `(
+implicit returnB
+gui.LoginGUI

@@ -1,0 +1,119 @@
+
+LbusinessLogic.BLFacadeImplementation#addCar(Ljava/lang/String;Ldomain/Car;)Zi
+]C:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/businessLogic/BLFacadeImplementation.java¹ ¹("startingBlock*ö
+startingBlock
+¹ ¹(2‘
+Ž
+
+¸ ¸(
+
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+usernamejava.lang.String^
+\
+
+¹ ¹(&
+usernamejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6ˆ
+…
+
+¸ ¸(
+
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*1
+
+__unknown_file (
+
+kotxe
+domain.CarU
+S
+
+¹, ¹(1
+kotxe
+domain.Car"__annotation*"
+
+__unknown_file (
+
+%7*
+1*ó
+1
+º º(‡
+„
+
+º º(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+º º(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+» »(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¯¬
+
+» »(2
+%3boolean"=dataAccess.DataAccess#addCar(Ljava/lang/String;Ldomain/Car;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String*1
+
+__unknown_file (
+
+kotxe
+domain.Car2&addCar(Ljava/lang/String;Ldomain/Car;)‡
+„
+
+¼ ¼(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+¼ ¼(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"
+
+½ ½(
+"":*
+
+¹ ¹('
+usernamejava.lang.String:!
+
+¹( ¹(1
+kotxe
+domain.CarB(&
+$businessLogic.BLFacadeImplementationHX

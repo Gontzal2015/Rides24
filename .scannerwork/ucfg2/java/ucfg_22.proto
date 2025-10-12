@@ -1,0 +1,38 @@
+
+HdataAccess.DataAccess#getBookedRides(Ljava/lang/String;)Ljava/util/List;Z
+NC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/dataAccess/DataAccess.javaÃ Ã($"1*¡
+1
+Õ Õ(Çˇ
+
+Œ Œ('
+%0domain.Traveler"FdataAccess.DataAccess#getTraveler(Ljava/lang/String;)Ldomain/Traveler;*5
+
+__unknown_file (
+dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String2getTraveler(Ljava/lang/String;)b
+`
+
+Œ Œ((
+travdomain.Traveler"__id*3
+
+__unknown_file (
+
+%0domain.Traveler†ù
+
+–	 –(
+%1java.util.List"0domain.Traveler#getBookedRides()Ljava/util/List;*5
+
+__unknown_file (
+
+travdomain.Traveler2getBookedRides()"$
+
+– –(
+
+%1java.util.List:*
+
+Ã% Ã(4
+usernamejava.lang.StringB
+dataAccess.DataAccessH

@@ -1,0 +1,15 @@
+
+0domain.Traveler#getBookedRides()Ljava/util/List;R
+HC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/domain/Traveler.java" "($"1*ù
+1#	 #(j
+h
+#	 #(
+%0java.util.List"__id*@
+
+__unknown_file ($*"
+domain.Traveler"
+bookedRides""
+# #(
+
+%0java.util.ListB
+domain.TravelerH

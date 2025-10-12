@@ -1,0 +1,123 @@
+
+gui.MoneyGUI#%field_initializer
+__unknown_file ("1*Í
+1 (äá
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java$ (.
+%0javax.swing.JTextField"javax.swing.JTextField®
+•
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java  (0
+%1" javax.swing.JTextField#<init>()V**
+ (
+
+%0javax.swing.JTextField•
+¢
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java (1
+gui.MoneyGUI"
+	fieldDiru"__id**
+ (
+
+%0javax.swing.JTextFieldÅ
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java% (+
+%2javax.swing.JLabel"javax.swing.JLabel†
+ù
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java! (-
+%3"javax.swing.JLabel#<init>()V*&
+ (
+
+%2javax.swing.JLabel¶
+£
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java (."
+gui.MoneyGUI"
+jLabelOraingoa"__id*&
+ (
+
+%2javax.swing.JLabelÅ
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java! ('
+%4javax.swing.JLabel"javax.swing.JLabel†
+ù
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java ()
+%5"javax.swing.JLabel#<init>()V*&
+ (
+
+%4javax.swing.JLabel¢
+ü
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java (*
+gui.MoneyGUI"
+
+lblEmaitza"__id*&
+ (
+
+%4javax.swing.JLabelÑÅ
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java$ (+
+%6javax.swing.JButton"javax.swing.JButton»
+≈
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java  (e
+%7"/javax.swing.JButton#<init>(Ljava/lang/String;)V*'
+ (
+
+%6javax.swing.JButton*
+ (
+""•
+¢
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java (f 
+gui.MoneyGUI"
+jButtonClose"__id*'
+ (
+
+%6javax.swing.JButtonÑÅ
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java& (-
+%8javax.swing.JButton"javax.swing.JButton»
+≈
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java" (r
+%9"/javax.swing.JButton#<init>(Ljava/lang/String;)V*'
+ (
+
+%8javax.swing.JButton*
+ (
+""ß
+§
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java (s"
+gui.MoneyGUI"
+jButtonGauzatu"__id*'
+ (
+
+%8javax.swing.JButtonÖÇ
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java* (1
+%10javax.swing.JButton"javax.swing.JButton 
+«
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java& (M
+%11"/javax.swing.JButton#<init>(Ljava/lang/String;)V*(
+ (
+
+%10javax.swing.JButton*
+ (
+""¨
+©
+O
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java (N&
+gui.MoneyGUI"
+jButtonMugimenduak"__id*(
+ (
+
+%10javax.swing.JButton"e
+N
+EC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/gui/MoneyGUI.java ë(
+implicit returnB
+gui.MoneyGUI

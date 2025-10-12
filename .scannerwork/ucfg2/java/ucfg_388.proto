@@ -1,0 +1,211 @@
+
+Sconfiguration.UtilDate#datesAreEqualIgnoringTime(Ljava/util/Date;Ljava/util/Date;)ZY
+OC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/configuration/UtilDate.java< <(0"5*Ó
+2C C(B
+@
+C C(-
+
+%14int"__id*"
+
+__unknown_file (
+""¡ž
+C C(.
+
+%15int"java.util.Calendar#get(I)I*8
+
+__unknown_file (
+
+cal1java.util.Calendar*(
+
+__unknown_file (
+
+
+%14int2get(I)B
+@
+C; C(P
+
+%16int"__id*"
+
+__unknown_file (
+""¡ž
+C2 C(Q
+
+%17int"java.util.Calendar#get(I)I*8
+
+__unknown_file (
+
+cal2java.util.Calendar*(
+
+__unknown_file (
+
+
+%16int2get(I)o
+m
+C C(Q
+%18boolean"	__compare*
+C/ C(1
+==*
+C C(.
+
+
+%15int*
+C2 C(Q
+
+
+%17int*
+1*Ô
+4B B(A
+?
+B B(&	
+%9int"__id*"
+
+__unknown_file (
+"" 
+B B('
+
+%10int"java.util.Calendar#get(I)I*8
+
+__unknown_file (
+
+cal1java.util.Calendar*'
+
+__unknown_file (
+	
+%9int2get(I)B
+@
+B4 B(B
+
+%11int"__id*"
+
+__unknown_file (
+""¡ž
+B+ B(C
+
+%12int"java.util.Calendar#get(I)I*8
+
+__unknown_file (
+
+cal2java.util.Calendar*(
+
+__unknown_file (
+
+
+%11int2get(I)o
+m
+B B(C
+%13boolean"	__compare*
+B( B(*
+==*
+B B('
+
+
+%10int*
+B+ B(C
+
+
+%12int*
+2
+1*ö
+5= =( ‘
+Ž
+= =(.
+%0java.util.Calendar"4java.util.Calendar#getInstance()Ljava/util/Calendar;*2
+
+__unknown_file ("
+java.util.Calendarf
+d
+= =(/
+cal1java.util.Calendar"__id*6
+
+__unknown_file (
+
+%0java.util.CalendarÔÑ
+> >(
+
+%1void"-java.util.Calendar#setTime(Ljava/util/Date;)V*8
+
+__unknown_file (
+
+cal1java.util.Calendar*5
+
+__unknown_file (
+
+date1java.util.Date2setTime(Ljava/util/Date;)‘
+Ž
+? ?(.
+%2java.util.Calendar"4java.util.Calendar#getInstance()Ljava/util/Calendar;*2
+
+__unknown_file ("
+java.util.Calendarf
+d
+? ?(/
+cal2java.util.Calendar"__id*6
+
+__unknown_file (
+
+%2java.util.CalendarÔÑ
+@ @(
+
+%3void"-java.util.Calendar#setTime(Ljava/util/Date;)V*8
+
+__unknown_file (
+
+cal2java.util.Calendar*5
+
+__unknown_file (
+
+date2java.util.Date2setTime(Ljava/util/Date;)A
+?
+A A(%	
+%4int"__id*"
+
+__unknown_file (
+""Ÿœ
+A A(&	
+%5int"java.util.Calendar#get(I)I*8
+
+__unknown_file (
+
+cal1java.util.Calendar*'
+
+__unknown_file (
+	
+%4int2get(I)A
+?
+A3 A(@	
+%6int"__id*"
+
+__unknown_file (
+""Ÿœ
+A* A(A	
+%7int"java.util.Calendar#get(I)I*8
+
+__unknown_file (
+
+cal2java.util.Calendar*'
+
+__unknown_file (
+	
+%6int2get(I)l
+j
+A A(A
+%8boolean"	__compare*
+A' A()
+==*
+A A(&
+	
+%5int*
+A* A(A
+	
+%7int*	
+2
+4
+1*!
+1A C(R"
+A C(R
+"":#
+<1 <(<
+date1java.util.Date:#
+<= <(G
+date2java.util.DateB"
+configuration.UtilDateHX

@@ -1,0 +1,76 @@
+
+ƒdataAccess.DataAccess#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)ZZ
+NC:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/dataAccess/DataAccess.javaø ø(#"9*%
+5
+€
+ €("
+
+€ €(
+""*ƒ
+8
+ý ý(Sm
+k
+
+ý ý(S!
+erreklamazioadomain.Complaint"__id*4
+
+__unknown_file (
+
+%0domain.Complaint*
+5*Ë
+9
+ý+ ý(.86
+
+ý! ý(*
+%0domain.Complaint"domain.Complaintú
+÷
+
+ý ý(R
+%1"qdomain.Complaint#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)V*4
+
+__unknown_file (
+
+%0domain.Complaint*5
+
+__unknown_file (
+
+norjava.lang.String*6
+
+__unknown_file (
+
+norijava.lang.String*4
+
+__unknown_file (
+
+gaurjava.util.Date*7
+
+__unknown_file (
+
+bookingdomain.Booking*8
+
+__unknown_file (
+
+textuajava.lang.String*"
+
+__unknown_file (
+""*
+8:%
+
+ø$ ø(/
+norjava.lang.String:&
+
+ø0 ø(<
+norijava.lang.String:$
+
+ø= ø(G
+gaurjava.util.Date:'
+
+øH ø(X
+bookingdomain.Booking:(
+
+øY ø(g
+textuajava.lang.String: 
+
+__unknown_file (
+""B
+dataAccess.DataAccessHX

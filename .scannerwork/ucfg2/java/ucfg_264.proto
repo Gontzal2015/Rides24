@@ -1,0 +1,96 @@
+
+WbusinessLogic.BLFacadeImplementation#getBookedRides(Ljava/lang/String;)Ljava/util/List;i
+]C:/Users/Ilargi/git/ProyRides/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaö ö($"startingBlock*”
+startingBlock
+ö$ ö(5‘
+Ž
+
+õ õ(
+
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+usernamejava.lang.String^
+\
+
+ö, ö(4
+usernamejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+1*Ä
+1
+÷ ÷(‡
+„
+
+÷ ÷(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+÷ ÷(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+ø ø(!
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerŠ‡
+
+ø ø(:
+%3java.util.List"HdataAccess.DataAccess#getBookedRides(Ljava/lang/String;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String2"getBookedRides(Ljava/lang/String;)a
+_
+
+ø ø(;
+ridesjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+ù ù(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+ù ù(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"'
+
+ú ú(
+
+ridesjava.util.List:*
+
+ö% ö(4
+usernamejava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH
