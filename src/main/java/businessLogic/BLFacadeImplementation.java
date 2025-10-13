@@ -334,12 +334,13 @@ public class BLFacadeImplementation implements BLFacade {
 	}
 
 	@Override
-	public boolean erreklamazioaBidali(String nor, String nori, Date gaur, Booking book, String textua, boolean aurk) {
-		dbManager.open();
-		boolean sent = dbManager.erreklamazioaBidali(nor, nori, gaur, book, textua, aurk);
-		dbManager.close();
-		return sent;
-	}
+    public boolean erreklamazioaBidali(String nor, String nori, Date gaur, Booking book, String textua, boolean aurk) {
+        dbManager.open();
+        Complaint reclamacion = new Complaint(nor, nori, gaur, book, textua, aurk);
+        boolean sent = dbManager.erreklamazioaBidali(reclamacion);
+        dbManager.close();
+        return sent;
+    }
 
 	@Override
 	public void updateComplaint(Complaint erreklamazioa) {

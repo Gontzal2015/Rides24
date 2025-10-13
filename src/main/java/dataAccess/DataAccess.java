@@ -777,18 +777,19 @@ public class DataAccess {
 	}
 
 	public boolean erreklamazioaBidali(Complaint reclamacion) {
-		try {
-			db.getTransaction().begin();
-
-			db.persist(reclamacion);
-			db.getTransaction().commit();
-			return true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			db.getTransaction().rollback();
-			return false;
-		}
+        try {
+            db.getTransaction().begin();
+            db.persist(reclamacion);
+            db.getTransaction().commit();
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            db.getTransaction().rollback();
+            return false;
+        }
 	}
+  
+
 
 	public void updateComplaint(Complaint erreklamazioa) {
 		try {
