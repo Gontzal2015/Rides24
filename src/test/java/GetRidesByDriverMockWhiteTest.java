@@ -172,7 +172,6 @@ public class GetRidesByDriverMockWhiteTest {
 	        sut.close();
 	    }
 	}
-	/**
 	
 	@Test
 	// Caso en el que el conductor si tiene viajes activos
@@ -221,6 +220,6 @@ public class GetRidesByDriverMockWhiteTest {
 	        sut.close();
 	    }
 	}
-	*/
+	
 
 }

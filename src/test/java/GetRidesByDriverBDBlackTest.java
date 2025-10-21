@@ -32,7 +32,7 @@ static DataAccess sut = new DataAccess();
 	private String pass;
 
 	private List<Ride> rides;
-/**
+
 	@Test
 	//The driver has one active ride
 	public void test1() {
@@ -89,7 +89,6 @@ static DataAccess sut = new DataAccess();
 			testDA.close();
 		}
 	}
-	*/
 	
 	
 	@Test

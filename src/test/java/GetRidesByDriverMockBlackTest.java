@@ -67,7 +67,7 @@ static DataAccess sut;
     public  void tearDown() {
 		persistenceMock.close();
     }
-	/**
+	
 	
 	@Test
 	// Caso en el que el conductor si tiene viajes activos
@@ -116,7 +116,6 @@ static DataAccess sut;
 	        sut.close();
 	    }
 	}
-	*/
 	
 	@Test
 	//Caso en el que pasamos un argumento null
