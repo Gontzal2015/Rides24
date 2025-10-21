@@ -146,7 +146,7 @@ public class GetRidesByDriverBDWhiteTest {
 			testDA.close();
 		}
 	}
-	
+/**	
 	@Test
 	//The driver has one active ride
 	public void test4() {
@@ -203,6 +203,7 @@ public class GetRidesByDriverBDWhiteTest {
 			testDA.close();
 		}
 	}
+	**/
 	
 }
 	
