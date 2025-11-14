@@ -8,6 +8,8 @@ import java.util.logging.Logger;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
+import Iterator.ExtendedIterator;
+import Iterator.ExtendedIteratorImpl;
 import configuration.ConfigXML;
 import dataAccess.DataAccess;
 import domain.Ride;
@@ -462,6 +464,12 @@ public class BLFacadeImplementation implements BLFacade {
 		Complaint er = dbManager.getComplaintsByBook(book);
 		dbManager.close();
 		return er;
+	}
+
+	public ExtendedIterator<String> getDepartingCitiesIterator() {
+	    // Reutilizamos la lógica existente
+	    List<String> cities = getDepartCities();
+	    return new ExtendedIteratorImpl<String>(cities);
 	}
 
 }
