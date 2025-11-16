@@ -1,12 +1,14 @@
 package Iterator;
+import java.net.MalformedURLException;
+
 import businessLogic.*;
 
 public class IteratorTest {
 
-	public static void main(String[]	args)	{
+	public static void main(String[]	args) throws MalformedURLException	{
 //		the	BL	is	local
 	boolean isLocal =	true;
-	BLFacade	blFacade =	new BLFacadeImplementation();
+	BLFacade	blFacade =	new BLFactory().getBusinessLogic(isLocal);
 	ExtendedIterator<String>	i =	blFacade.getDepartingCitiesIterator();
 	String c;
 	System.out.println("_____________________");
