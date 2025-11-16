@@ -352,10 +352,12 @@ public class DataAccess {
 
 	}
 
-	public void close() {
-		db.close();
-		System.out.println("DataAcess closed");
-	}
+    public void close() {
+        if (db != null && db.isOpen())
+            db.close();
+        if (emf != null && emf.isOpen())
+            emf.close();
+    }
 
 	public User getUser(String erab) {
 		TypedQuery<User> query = db.createQuery("SELECT u FROM User u WHERE u.username = :username", User.class);
